@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calci</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="ganana" >GANANA YANTRA</h1>
+    <div id="mother_div" class="bdr">
+        <div id="output" class="bdr">Enter valuess....</div>
+        <div class="row">
+            <button class="btn highlighter"  onclick="supervisor('CLEAR')" >CLEAR</button>
+            <button class="btn highlighter" onclick="supervisor('Back_SP')" style="
+    font-size: 28px;
+">←</button>
+            <button class="btn highlighter" onclick="supervisor('=')">=</button>
+            <button class="btn  op_highlighter" onclick="supervisor('/')">/</button>
+        </div>
+        <div class="row" >
+            <button class="btn" onclick="supervisor('7')">7</button>
+            <button class="btn" onclick="supervisor('8')">8</button>
+            <button class="btn" onclick="supervisor('9')">9</button>
+            <button class="btn op_highlighter" onclick="supervisor('*')">*</button>
+        </div>
+        <div class="row"  >
+            <button class="btn" onclick="supervisor('4')">4</button>
+            <button class="btn" onclick="supervisor('5')">5</button>
+            <button class="btn" onclick="supervisor('6')">6</button>
+            <button class="btn op_highlighter" onclick="supervisor('-')">-</button>
+        </div>
+        <div class="row"  >
+            <button class="btn" onclick="supervisor('1')">1</button>
+            <button class="btn" onclick="supervisor('2')">2</button>
+            <button class="btn" onclick="supervisor('3')">3</button>
+            <button class="btn op_highlighter" onclick="supervisor('+')">+</button>
+        </div>
+        <div  class="row"  >
+            <button class="btn" onclick="supervisor('00')" > 00</button>
+            <button class="btn" onclick="supervisor('0')">0</button>
+            <button class="btn " onclick="supervisor('.')">.</button>
+            <button class="btn op_highlighter" onclick="supervisor('%')">%</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
