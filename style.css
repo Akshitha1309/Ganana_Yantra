@@ -60,3 +60,14 @@ body{
 .op_highlighter{
     background: #c8ab7e;
 }
+@media only screen and (max-width: 600px) {
+    #mother_div {
+        width: 100%;
+    }
+    .row{
+        padding: 5px 0px;
+    }
+    #output{
+        border-radius: 12px;
+    }
+  }
